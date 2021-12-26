@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  img{
+      width: 200px;
+      border: 2px solid gray;
+      border-radius: 50%;
+
+  }
+
+  .mainClass{
+      display: flex;
+      gap: 3rem;
+      margin-top: 4em;
+  }
+
+  .mainCircle{
+      display: flex;
+      gap: 3rem;
+      margin-top: 2em;
+  }
