@@ -1,7 +1,7 @@
 import React from 'react'
 import Cercle from '../component/circle'
 import '../component/main.css' 
-function main({ image, alternative }) {
+function main({ image, alternative, introduction }) {
     return (
         <div className='mainClass'>
             <div>   <img src={image} alt={alternative} /></div>
@@ -13,6 +13,7 @@ function main({ image, alternative }) {
                     <Cercle content="My WORK"  colorClass="blue" />
                     <Cercle content="My SKILS"  colorClass="yellow"/>
                 </div>
+                <p className='intro'>{introduction}</p>
             </div>
 
         </div>
